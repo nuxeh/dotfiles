@@ -9,6 +9,7 @@
   home.username = "ed";
   home.homeDirectory = "/home/ed";
 
+  # vim
   programs.vim = {
     enable = true;
 
