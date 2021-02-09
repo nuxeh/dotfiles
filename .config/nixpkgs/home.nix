@@ -16,6 +16,9 @@
     plugins = with pkgs.vimPlugins; [
       vim-airline
       vimwiki
+      nerdtree
+      gitgutter
+      vim-fugitive
     ];
 
     settings = {
@@ -24,6 +27,8 @@
 
     extraConfig = ''
       set mouse=a
+      set updatetime=100
+      autocmd VimEnter * GitGutterEnable
     '';
   };
 
