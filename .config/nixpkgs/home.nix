@@ -29,6 +29,8 @@
       set mouse=a
       set updatetime=100
       autocmd VimEnter * GitGutterEnable
+      cmap W w
+      cmap Q q
     '';
   };
 
